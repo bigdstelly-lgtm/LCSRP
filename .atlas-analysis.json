@@ -1,0 +1,107 @@
+{
+  "projectType": "saas",
+  "projectName": "ER:LC Private Server",
+  "projectDescription": "A guide for players on how to join, participate in, and operate within an Emergency Response: Liberty County (ER:LC) private roleplay server on Roblox.",
+  "theme": "almond",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Player Guide",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "joining-the-server",
+              "server-rules"
+            ]
+          },
+          {
+            "group": "Teams & Roles",
+            "pages": [
+              "teams/overview",
+              "teams/law-enforcement",
+              "teams/fire-ems",
+              "teams/civilian"
+            ]
+          },
+          {
+            "group": "Roleplay Guidelines",
+            "pages": [
+              "roleplay/standards",
+              "roleplay/priorities",
+              "roleplay/combat-rules",
+              "roleplay/new-life-rule"
+            ]
+          },
+          {
+            "group": "Staff & Moderation",
+            "pages": [
+              "staff/ranks",
+              "staff/commands",
+              "staff/reporting"
+            ]
+          },
+          {
+            "group": "Server Settings",
+            "pages": [
+              "settings/overview",
+              "settings/premium-features"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Private server with up to 40 players",
+    "Multiple emergency response teams (Police, Fire, EMS, DOT, Civilian)",
+    "Staff permission hierarchy (Moderator, Administrator, Co-Owner)",
+    "In-game chat commands for moderation",
+    "Priority cooldown timers and server events",
+    "Customizable server settings (weather, time, team balance)",
+    "Premium server features (weather control, peace time, priority timer)",
+    "Server join via code, link, or server list"
+  ],
+  "publicApiSurface": [
+    ":kill / :down [Player]",
+    ":heal [Player]",
+    ":bring [Player]",
+    ":tp [Player] [Player]",
+    ":to [Player]",
+    ":refresh [Player]",
+    ":respawn [Player]",
+    ":view [Player]",
+    ":wanted [Player]",
+    ":unwanted [Player]",
+    ":jail [Player]",
+    ":kick [Player] [Reason]",
+    ":ban [Player] [Reason]",
+    ":unban [Player/UserId]",
+    ":mod [Player/UserId]",
+    ":unmod [Player/UserId]",
+    ":h [Message]",
+    ":m [Message]",
+    ":time [Hour]",
+    ":weather [String]",
+    ":startfire [String]",
+    ":startnearfire [String]",
+    ":stopfire",
+    ":stopdumpsterfire",
+    ":prty [Seconds]",
+    ":pt [Seconds]",
+    ":tocar",
+    ":toatv",
+    ":logs",
+    ":killlogs",
+    ":bans",
+    ":admins",
+    ":mods",
+    ":commands / :cmds",
+    "!help / !mod",
+    "makewanted"
+  ]
+}

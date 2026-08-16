@@ -1,0 +1,103 @@
+---
+title: "Staff Commands: Full In-Game Command Reference"
+sidebarTitle: "Commands"
+description: "Complete reference for every in-game chat command available on our ER:LC private server, including who can use each command and example usage."
+---
+
+Every in-game command on our server is entered directly into the Roblox chat. Commands for staff start with a colon (`:`). Player commands use specific words or an exclamation mark (`!`). This page lists every available command, its effect, and who has permission to use it.
+
+<Note>
+Some commands require a **Premium Server Pack** or other purchased packs. These are noted in the table below.
+</Note>
+
+## Player Commands
+
+These commands are available to all players on the server:
+
+| Command | Effect | Example |
+|---|---|---|
+| `!help` | Sends an alert to all online moderators requesting assistance | `!help` |
+| `!mod` | Same as `!help` — calls for a moderator | `!mod` |
+| `makewanted` | Increases your own wanted level by 1 star (if enabled by server settings) | `makewanted` |
+
+## Moderator Commands
+
+These commands are available to **Moderators and above**:
+
+### Player Management
+
+| Command | Effect | Example |
+|---|---|---|
+| `:kill [Player]` | Kills (downs) the targeted player | `:kill username` |
+| `:down [Player]` | Same as `:kill` | `:down username` |
+| `:heal [Player]` | Heals the targeted player to full health | `:heal username` |
+| `:refresh [Player]` | Respawns the player at their current location | `:refresh username` |
+| `:respawn [Player]` | Respawns the player to a designated spawn point | `:respawn username` |
+| `:jail [Player]` | Imprisons the targeted player for 5 minutes | `:jail username` |
+| `:kick [Player] [Reason]` | Kicks the targeted player with a reason | `:kick username Fail Roleplay` |
+| `:wanted [Player]` | Applies a wanted level to the targeted player | `:wanted username` |
+| `:unwanted [Player]` | Clears the targeted player's wanted status | `:unwanted username` |
+
+### Teleportation
+
+| Command | Effect | Example |
+|---|---|---|
+| `:bring [Player]` | Teleports the target to you | `:bring username` |
+| `:to [Player]` | Teleports yourself to the target | `:to username` |
+| `:tp [Player] [Player]` | Teleports the first player to the second | `:tp user1 user2` |
+| `:tocar` | Teleports yourself to your available car | `:tocar` |
+| `:toatv` | Teleports yourself to your available ATV | `:toatv` |
+
+### Spectating & Announcements
+
+| Command | Effect | Example |
+|---|---|---|
+| `:view [Player]` | Your camera follows the targeted player. Leave blank to reset. | `:view username` |
+| `:h [Message]` | Displays a temporary hint to all players at the top of their screen | `:h Welcome to the server!` |
+| `:m [Message]` | Broadcasts a pop-up message to all players (requires OK to dismiss) | `:m Priority starting now` |
+| `:time [Hour]` | Sets the time of day (0–24 format; 12 = noon, 0 = midnight) | `:time 14` |
+
+### Fire Management
+
+| Command | Effect | Example |
+|---|---|---|
+| `:startfire [Type]` | Starts a fire at a random location. Types: `building`, `brush`, `house` | `:startfire building` |
+| `:startnearfire [Type]` | Starts a fire near your position. Types: `building`, `brush`, `house` | `:startnearfire brush` |
+| `:stopfire` | Stops any currently active fire | `:stopfire` |
+| `:stopdumpsterfire` | Stops any currently active dumpster fires | `:stopdumpsterfire` |
+
+### Logs & Info
+
+| Command | Effect | Example |
+|---|---|---|
+| `:logs` | Displays a list of executed commands and their initiators | `:logs` |
+| `:killlogs` | Displays a list of player kills (not staff kills) | `:killlogs` |
+| `:bans` | Displays a list of banned players | `:bans` |
+| `:admins` | Lists all players with admin permissions | `:admins` |
+| `:mods` | Lists all players with moderator permissions | `:mods` |
+| `:commands` | Displays a list of available commands | `:commands` |
+| `:cmds` | Same as `:commands` | `:cmds` |
+
+## Administrator Commands
+
+These commands are available to **Administrators and above**:
+
+| Command | Effect | Pack Required | Example |
+|---|---|---|---|
+| `:ban [Player] [Reason]` | Bans the targeted player from the server | Free | `:ban username Exploiting` |
+| `:unban [Player/UserId]` | Removes a player's ban | Free | `:unban username` |
+| `:mod [Player/UserId]` | Grants Moderator permissions to a player | Free | `:mod username` |
+| `:unmod [Player/UserId]` | Revokes Moderator permissions from a player | Free | `:unmod username` |
+| `:weather [Type]` | Changes the weather. Types: `rain`, `thunderstorm`, `fog`, `clear` | Premium Server Pack | `:weather rain` |
+| `:prty [Seconds]` | Displays a priority countdown timer to all players | Premium Server Pack | `:prty 300` |
+| `:pt [Seconds]` | Activates Peace Time — disables PVP for the duration | Premium Server Pack | `:pt 300` |
+
+## Command Tips
+
+<Tip>
+Player names in commands are **not case-sensitive**, but they must match the beginning of the player's username. If multiple players share the same starting characters, be as specific as possible to target the right one.
+</Tip>
+
+<Warning>
+Abusing staff commands — such as using `:kill` or `:ban` on players without cause — is a violation of staff conduct and may result in demotion or removal from the staff team.
+</Warning>
